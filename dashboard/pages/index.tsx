@@ -16,7 +16,7 @@ const Home = (_props: any) => {
     return (
         <Container>
             <Head>
-                <title>Discord Music Bot</title>
+                <title>BotkingdomDJ</title>
             </Head>
             <Container css={ {
                 display: 'flex',
@@ -30,7 +30,7 @@ const Home = (_props: any) => {
                 zIndex: '$5'
             } }>
                 <Link css={ {fontSize: '$xl', fontWeight: '$semibold'} } href='#'>
-                    { data ? data.name : "Discord Music Bot" }
+                    { data ? data.name : "BotkingdomDJ" }
                 </Link>
                 <Link color='text' css={ {fontSize: '$lg', fontWeight: '$medium', marginLeft: '20px'} } href='#'>
                     Home
@@ -52,7 +52,7 @@ const Home = (_props: any) => {
                 alignItems: 'center',
                 flexDirection: 'column',
             } }>
-                <Text h1 css={ {textGradient: "180deg, $blue600 -20%, $blue800 100%",} }>Discord Music Bot</Text>
+                <Text h1 css={ {textGradient: "180deg, $blue600 -20%, $blue800 100%",} }>BotkingdomDJ</Text>
                 <Text h3 css={ {color: '$gray800'} }>An advanced discord music bot, supports Spotify, SoundCloud,
                     YouTube with Shuffling, Volume Control and Web Dashboard!</Text>
                 <Container css={ {display: 'flex', alignItems: 'center', justifyContent: 'center'} }>
@@ -61,10 +61,10 @@ const Home = (_props: any) => {
                     } }>Login
                     </Button>
                     <Button color="primary" flat
-                            onClick={ () => window.open('https://github.com/SudhanPlayz/Discord-MusicBot') } style={ {
+                            onClick={ () => window.open('https://www.instagram.com/tobortech/') } style={ {
                         marginTop: '1rem',
                         marginLeft: '20px'
-                    } }>Github
+                    } }>INSTAGRAM
                     </Button>
                 </Container>
             </Container>
@@ -128,7 +128,7 @@ const Home = (_props: any) => {
                 minHeight: '60vh'
             } }>
                 <Text h2>What are you waiting for?</Text>
-                <Button shadow size={ 'md' } css={ {marginTop: '5em'} }>Start Now</Button>
+                <Button shadow size={ 'md' } css={ {marginTop: '5em'} }>:)))</Button>
             </Container>
         </Container>
     )
